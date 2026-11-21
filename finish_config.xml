@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+	<servername>ADD_YOUR_SERVERNAME_FOR_MESSAGE</servername>
+
+	<!-- PAYOUTS (in coppers). Hard limit is 500 coppers! -->
+	<minwin>10</minwin>                <!-- plain finish: finishing a map for the first time (needs payfirstfinish = 1) -->
+	<maxwin>20</maxwin>                <!-- gold time: beating the gold time for the first time -->
+	<goldfirstwin>30</goldfirstwin>    <!-- gold time on the very FIRST finish of a map (both at once) -->
+
+	<log>1</log>                       <!-- set to 1 to enable payment logging, anything else disables it -->
+	<payfirstfinish>1</payfirstfinish> <!-- set to 1 to pay for just finishing, anything else disables it -->
+	<ignoredplayers>
+		<ignoredlogin>ADD_YOUR_LOGIN</ignoredlogin> <!-- add as many logins as you want that won't win anything -->
+		<ignoredlogin>ADD_MORE_LOGINS</ignoredlogin>
+		<ignoredlogin>AND_SO_ON</ignoredlogin>
+	</ignoredplayers>
+</settings>
