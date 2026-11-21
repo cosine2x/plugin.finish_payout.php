@@ -29,8 +29,10 @@ This plugin replaces the legacy `plugin.finishpayout.php` from Xymph's Automatic
    <plugin>plugin.rasp.php</plugin>
    <plugin>plugin.localdatabase.php</plugin>
    ```
+   
+4. Copy `finish_config.xml` into your xaseco folder (`/xaseco/`) and edit it to fit your needs.
     
-4. Restart XASECO on your server.
+5. Restart XASECO on your server.
 
 # Acknowledgments
 Xymph's Automatic Server Control, XASECO, available @ [xaseco.org](https://www.xaseco.org/)
